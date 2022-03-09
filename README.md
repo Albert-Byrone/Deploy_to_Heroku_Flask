@@ -11,7 +11,7 @@ After installing the Heroku Toolbelt, open a terminal and login to your account:
 ```bash
 $ heroku login
 Enter your Heroku credentials.
-Email: newtonkiragu@herokudeploying.com
+Email: albertbyrone@herokudeploying.com
 Password (typing will be hidden):
 Authentication successful.
 ```
