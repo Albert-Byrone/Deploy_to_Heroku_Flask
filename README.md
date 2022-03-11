@@ -54,6 +54,8 @@ class ProdConfig(Config):
 `app/__init__.py`  
 
 ```bash
+import os
+
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.ge("DATABASE_URL")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 
