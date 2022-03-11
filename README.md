@@ -47,7 +47,7 @@ This database's URI will be stored in Heroku in the configuration variable DATAB
 
 ```bash
 class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI = os.environ.ge("DATABASE_URL")
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 ```
 
 
