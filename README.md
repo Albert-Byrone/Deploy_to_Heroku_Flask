@@ -51,6 +51,16 @@ class ProdConfig(Config):
 ```
 
 
+`app/__init__.py`  
+
+```bash
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://dash-dash:albert@localhost/pit'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
+
+```
+
+
+
 `manage.py`
 
 ```bash
