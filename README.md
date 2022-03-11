@@ -62,6 +62,14 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 ```
 
 
+`.env`  
+
+```bash
+MAIL_USERNAME='your_email'
+MAIL_PASSWORD='passowrd'
+SECRET_KEY='secret_key'
+
+```
 
 `manage.py`
 
