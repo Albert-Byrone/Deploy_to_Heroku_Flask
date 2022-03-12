@@ -184,6 +184,6 @@ To https://git.heroku.com/mtr1bune.git
 We now need to define our database schema on our Heroku database.
 
 ```bash
-$ heroku run python3.6 manage.py db upgrade
+$ heroku run python3 manage.py db upgrade
 ```
 You can the open the app in your browse.
